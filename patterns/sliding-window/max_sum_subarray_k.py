@@ -16,6 +16,5 @@ def max_sub_array_of_size_k(arr, k):
 def main():
   print(max_sub_array_of_size_k([2, 1, 5, 1, 3, 2], 3))
 
-if __name__ == "__main__":
-  main()
+main()
   
