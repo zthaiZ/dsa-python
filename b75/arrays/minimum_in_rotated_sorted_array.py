@@ -9,11 +9,11 @@ class Solution:
         right = len(nums)-1
         res = nums[0]
         
-        while (left < right):
+        while (left <= right):
             if nums[left] < nums[right]:
                 res = min(res, nums[left])
                 break
-            mid = (right-left) // 2
+            mid = (left+right) // 2
             res = min(res, nums[mid])
             
             if nums[left] <= nums[mid]:
